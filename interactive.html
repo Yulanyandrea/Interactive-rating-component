@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style8.css">
+    <link rel="stylesheet" href="body.css">
+    <title>Interactive rating component</title>
+</head>
+<body>
+    <main class="container" id="demo3">
+        <header class="image_header">
+            <div class="star">
+                <img src="icon-star.svg" alt="">
+            </div>
+        </header>
+        <section class="text">
+            <h1>How did we do?</h1>
+            <p class="paragraph">Please let us know how we did with your support request.
+                All feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="numbers">
+                <div class="one">
+                    <button id="num"  value="1"onclick="imprimirValor();" >1</button>
+                </div>
+
+                <div class="one">
+                    <button id="num2"  value="2"onclick="valor();" >2</button>
+                </div>
+
+                <div class="one">
+                    <button id="num3" value="3" onclick="valor3();">3</button>
+                </div>
+
+                <div class="one">
+                    <button id="num4" value="4" onclick="valor4();">4</button>
+                </div>
+
+                <div class="one">
+                    <button id="num5" value="5" onclick="valor5();">5</button>
+                </div>
+               
+            </div>
+
+            <button class="submit" onclick="display1();">SUBMIT</button>
+        </section>
+    </main>
+
+    <main class="container2" id="demo2">
+        <header class="image_thank">
+            <div class="thanks">
+                <img src="thank-you.svg" alt="">
+            </div>
+        </header>
+        <section class="paragraph2">
+            <div class="notification">
+                <p>You selected <span id="result" >result</span> out of 5</p>
+            </div>
+
+            <div class="greeting">
+                <h2>Thank you!</h2>
+            </div>
+
+            <div class="footerText">
+                <p>We appreciate you taking the time to give a rating.If you
+                    ever need more support don't hesitate to get in touch!
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="events.js">
+    </script>
+</body>
+</html>
