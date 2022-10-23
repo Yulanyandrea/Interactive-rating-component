@@ -39,3 +39,20 @@ https://developer.mozilla.org/es/docs/Web/HTML/Element/option
                                                    Que aprendí?
                                                    
 Anteriormente no habia realizado pruebas mediante el uso del DOM por lo tanto fue necesario tener una investigación más profunda . De igual manera el uso de la logica ya se hace presente puesto que capturar los valores de los botones no es mediante el uso normal del lenguaje javascript y a su vez mostrarlos de nuevo en la caja principal se hace de una manera diferente. Por ello fue bastante dificil desarrollar el ejercicio. Sin embargo funciono e interactua de manera correcta 
+  
+Resultado vista desktop:
+ ![desktop_final](https://user-images.githubusercontent.com/79812118/197368997-e813a627-764b-4385-b3f0-4e3aa523fd58.jpg)
+  
+Resiltado vista movile:
+![movile_final](https://user-images.githubusercontent.com/79812118/197369021-22d871dd-9ba8-4610-aac7-d1d79f87f4c9.jpg)
+
+Hover botones de los números:
+![hover_buttom](https://user-images.githubusercontent.com/79812118/197369029-fb45401f-e7c5-4028-a5d9-ba9d63aff382.jpg)
+
+Hover boton principal:
+![hover_buttom2](https://user-images.githubusercontent.com/79812118/197369041-01667bbf-3b9d-4579-94c9-9011f9f03a15.jpg)
+
+
+
+
+
